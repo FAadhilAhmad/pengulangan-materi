@@ -42,12 +42,63 @@ body{
 
 /* style main */
 .pop{
-  background-color: #1E90FF;
+  padding: 10px 0px;
   margin: 10px;
-  width: 100px 0px;
-  height: 100px;
-  border-radius: 20px;
+}
+.content1{
+  width: 200px;
+  height: auto;
+  background-color: #1E90FF;
   display: flex;
-  justify-content: center;  
+  justify-content: center;
   align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+}
+.perent{
+  display: flex;
+  gap: 20px;
+}
+/* end style main */
+
+/* grid main */
+.main-content{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+/* end grid main */
+
+/* grid kanan */
+.grid-kanan{
+  margin: 20px;
+  padding: 10px;
+  background-color: #ddd;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.tools-set{
+ padding-right: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: start;
+  align-items: start;
+}
+.tools{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap : 10px;
+  background-color: #1E90FF;
+  padding: 10px;
+  border-radius: 10px;
+}
+.tools svg{
+  background-color: #f2f2f2;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  padding: 5px;
 }
