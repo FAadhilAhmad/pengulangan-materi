@@ -13,6 +13,8 @@ body{
   background-color: #1E90FF;
   margin: 0px auto;
   padding: 20px;
+  width: 100%;
+  height: 100%;
 }
 .navbar ul{
   display: flex;
@@ -84,7 +86,6 @@ body{
   gap: 10px;
 }
 .tools-set{
- padding-right: 200px;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -106,4 +107,48 @@ body{
   width: 50px;
   height: 50px;
   padding: 5px;
+}
+@media screen and (max-width: 750px){
+  .main-content{
+    display: flex;
+    flex-direction: column;
+  }
+  .content1{
+    width: 100%;
+  }
+  .grid-kanan{
+    width: 100%;
+  }
+  .navbar ul{
+    gap: 10px;
+  }
+  .navbar ul li{
+    width: 100%;
+    justify-content: center;
+  }
+  .icon-button h2{
+    display: none;
+  }
+  .navbar ul{
+    margin: 0px auto;
+   width: 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+  .navbar a{
+    display: none;
+  }
+  .navbar{
+    width: 100%;
+  }
+  .perent{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    
+  }
+  .grid-kanan{
+    display: none;
+  }
 }
